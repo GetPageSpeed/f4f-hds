@@ -29,6 +29,12 @@ sudo yum -y install https://extras.getpagespeed.com/release-latest.rpm
 sudo yum -y install nginx-module-f4fhds
 ```
 
+To enable this module, add the following to `/etc/nginx/nginx.conf`
+and reload nginx:
+    
+    load_module modules/ngx_http_f4fhds_module.so;
+
+
 ### Compilation
 
 ```
