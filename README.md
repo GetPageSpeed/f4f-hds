@@ -1,4 +1,4 @@
-# f4f-hds
+# f4fhds
 
 Nginx module for Adobe f4f format.
 
